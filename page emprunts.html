@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ruluko&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les amis de Didi</title>
+    <style>
+        body {
+            background-color: #222222;
+            color: #ffffff;
+            font-family: "Ruluko", sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+	        flex-direction: column;
+	        min-height: 100vh;
+            background-attachment : fixed
+        }
+        main{
+            padding: 30px;
+        }
+
+        .site-content {
+	        flex: 1;
+        }
+
+        header {
+            background-color: #395154;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-left img {
+            width: 100px;
+            margin-right: 20px;
+        }
+
+        .header-right a {
+            color: #F6E8EA;
+            text-decoration: none;
+            margin-left: 40px;
+            transition: color 0.15s;
+        }
+
+        .header-right a:hover {
+            color: #FE5F55;
+        }
+		footer {
+            background-color: #395154;
+            text-align: center;
+            width: 100%;
+        }
+        footer a {
+            color: #F6E8EA;
+            transition: color 0.15s;
+        }
+        footer a:hover {
+            color: #FE5F55;
+        }
+
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        .comite{
+            padding: 0px 100px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .personne{
+            height: 350px;
+            width: 165px;
+            text-align: center;
+        }
+        .personne img{
+            height: 225px;
+            width: 150px;
+        }
+        .leg{
+            text-align: center;
+        }
+        .leg a {
+            color: #F6E8EA;
+            transition: color 0.15s;
+            text-align: center;
+        }
+
+        .leg a:hover {
+            color: #FE5F55;
+        }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-left">
+        <img src="logo.png" alt="Logo">
+    </div>
+    <div class="header-right">
+        <a href="#">Histoire de la Charette</a>
+        <a href="#">Emprunts/Location</a>
+        <a href="#">L'association</a>
+    </div>
+</header>
+
+<main class="site-content">
+    <h1>Condition de prêt</h1>
+    <ul>
+        <li>Vous devez rendre la charette propre et en bonne état. Sinon des frais de netoyage ou de réparation peuvent vous être facturer.</li>
+        <li>Vous devez être à l'heure pour le prêt et le rendu</li>
+        <li>En cas de problème, il faut contacter imméadiatement le numéro de téléphone qui vous sera donné au moment du prêt.</li>
+    </ul>
+    <center>
+        <img src="bubletea.jpg" alt="photo" width=40% height=40%>
+    </center>
+    <h2>Vous êtes une association</h2>
+    <p>Vous pouvez emprunter la charette gratuitement. Pour cela vous devez envoyez un mail à comite@les-amis-de-didi.ch. Vous pouvez néanmoins nous faire un don pour nous aider à subsister.</p>
+
+    <h2>Vous êtes une entreprise ou un particulier.</h2>
+    <p>Vous pouvez louer la charette. Pour cela vous devez envoyez un mail à comite@les-amis-de-didi.ch. Le prix de la location sera discuté par mail.</p>
+
+
+</main>
+
+<footer class="site-footer">
+    <p>Contact : <a href="mailto:comite@les-amis-de-didi.ch">comite@les-amis-de-didi.ch</a></p>
+	<p>&copy;2024@Roulotte | Maxime Roux. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
+
